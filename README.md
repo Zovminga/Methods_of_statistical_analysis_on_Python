@@ -1,33 +1,33 @@
-### Методы статистического анализа на Python
+### Statistical analysis methods in Python
 ____
-В данном скрипте приведены общая алгоритмическая схема выбора критерия или метода анализа, показаны пошаговые алгоритмы стат.анализа по каждому критерию с фрагментами кода (в различных вариациях) и примерами данных.
+This script provides a general algorithmic scheme for choosing a criterion or analysis method and shows step-by-step statistical analysis algorithms for each criterion with code fragments (in various variations) and data examples.
 
-*На данный момент скрипт находится в стадии активной разработки.*<br>
-*Основные используемые библиотеки: pandas, scipy, pingouin, statsmodels.*
+*The script is currently under active development.*<br>
+*Main libraries used: pandas, scipy, pingouin, statsmodels.*
 
-#### Содержание:<br>
-1. Алгоритм статистиеского анализа
-2. Проверка нормальности распределения
-    * Графическое распределение (distplot)
-    * Критерий Колмогорова-Смирнова
-    * Критерий Шапиро-Уилка
+#### Contents:<br>
+1. Algorithm for statistical analysis
+2. Checking the normal distribution
+    * Graphical distribution (distplot)
+    * Kolmogorov-Smirnov criterion
+    * Shapiro-Wilk test
     * QQ-plot
-3. Описательная статистика
-    * Мода, медиана и среднее
-    * Размах, дисперсия и стандартное отклонение
-    * boxplot
-    * Доверительный интервал
-4. Стандартизация (Z-преобразование)
-5. t-критерий Стьюдента для независимых выборок
-6. Однофакторный дисперсионный анализ (ANOVA)
-7. Многофакторный дисперсионный анализ
-    * Двухфакторный дисперсионный анализ (two-way ANOVA)
-8. Корреляционный анализ
-    * Коэффициенты корреляции Пирсона, Спирмена и Кэндалла
-9. Регрессионный анализ
-    * Регрессия с одной независимой переменной
-    * Предсказание значений
-10. Множественный регрессионный анализ
-    * Логистическая регрессия
-    * Диаграмма корреляции между всеми переменными в анализе
-11. Кластерный анализ
+3. Descriptive statistics
+    * Mode, median and mean
+    * Range, variance and standard deviation
+    *boxplot
+    * Confidence interval
+4. Standardization (Z-transform)
+5. Student's t-test for independent samples
+6. One-way analysis of variance (ANOVA)
+7. Multivariate analysis of variance
+    * Two-way analysis of variance (two-way ANOVA)
+8. Correlation analysis
+    * Pearson, Spearman and Kendall correlation coefficients
+9. Regression analysis
+    * Regression with one independent variable
+    * Value prediction
+10. Multiple regression analysis
+    * Logistic regression
+    * Chart the correlation between all variables in the analysis
+11. Cluster analysis
